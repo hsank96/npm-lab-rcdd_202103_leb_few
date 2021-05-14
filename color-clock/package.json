@@ -4,7 +4,7 @@
   "description": "Color Clock NPM package JSON file",
   "main": "index.js",
   "scripts": {
-  "test": "echo 'Hello World!'"
+    "test": "echo 'Hello World!'"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
     "clock"
   ],
   "author": "learn",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
 }
